@@ -1,0 +1,17 @@
+{
+	"id":"00001",
+	"title":"JS高级程序设计（1）",
+	"date":"2017.01.01",
+	"desc":"JS高级程序设计笔记",
+	"tag":["JS"],
+	"paragraphs":[
+		{
+			"type":"p",
+			"content":"JS组成：核心ECMAScript，文档对象模型DOM，浏览器对象模型BOM"
+		},
+		{
+			"type":"c",
+			"content":"function setName(obj){obj.name = 'a';obj = new Object();obj.name = 'b';}var person = new Object();setName(person);alert(person.name); // 输出a"
+		}
+	]
+}
